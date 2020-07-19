@@ -1,0 +1,103 @@
+/* google-fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat&family=Philosopher&family=Roboto:wght@300;400&display=swap");
+body {
+  font-family: "lato", sans-serif !important;
+}
+.navbar {
+  background-color: #001d30 !important;
+}
+#home-section {
+  height: 100vh;
+  background-image: url("/img/p-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.dark-overlay {
+  opacity: 0.8;
+  height: 100vh;
+  clip-path: polygon(0 0, 68% 0, 48% 100%, 0% 100%);
+  background-color: #025e83 !important;
+}
+#home-section .home-inner {
+  padding-top: 8rem;
+}
+#home-section .body-img {
+  height: 100%;
+  width: 100%;
+}
+.navbar-toggler {
+  border: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0.7rem !important;
+  border: 1px solid rgba(181, 237, 247, 0.808) !important;
+  padding: 0.1rem;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+a.nav-link {
+  color: #0db4ca !important;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+a.nav-link:hover {
+  color: #0d8a9b !important;
+}
+@media only screen and (max-width: 600px) {
+  .dark-overlay {
+    clip-path: none;
+  }
+}
+.carousel-item {
+}
+#facts {
+  background-image: linear-gradient(rgba(2, 2, 2, 0.767), rgba(5, 5, 5, 0.767)),
+    url(/img/p-9.jpg);
+
+  background-size: cover;
+}
+#facts .row {
+  margin-top: 3rem;
+}
+#facts .card {
+  margin: 2rem 1rem;
+  font-size: 0.7rem;
+
+  background-color: #015f85;
+  color: white;
+}
+#facts .card .card-header {
+  background-color: rgb(235, 235, 235);
+  padding: 0.3rem 1rem;
+  /* clippath */
+  clip-path: polygon(0 0, 100% 0%, 51% 100%, 0% 100%);
+  border-bottom: 10px solid rgb(0, 0, 0);
+}
+#facts h3 {
+  color: white;
+  font-family: "Philosopher";
+}
+#facts a {
+  color: rgb(39, 108, 173);
+  font-size: 0.9rem !important;
+}
+#blog {
+  margin-bottom: 10rem !important;
+}
+#blog .card {
+  margin: 0.3rem;
+}
+.footer {
+  height: 30vh;
+  bottom: 0 !important;
+}
+#gallery img {
+  height: 13rem;
+  width: 13rem;
+}
