@@ -101,3 +101,9 @@ a.nav-link:hover {
   height: 13rem;
   width: 13rem;
 }
+@media only screen and (max-width: 400px) {
+  #gallery img {
+    height: 13rem;
+    width: 100vw;
+  }
+}
